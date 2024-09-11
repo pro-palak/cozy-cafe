@@ -1,0 +1,202 @@
+
+* {
+    background-color: black;
+    color: seashell;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mainHeader {
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    height: 69px;
+    display: flex;
+    justify-content: space-between; 
+    z-index: 1000; 
+}
+
+
+.headerLogo {
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#headerNav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%; 
+}
+
+
+.navList {
+    display: flex;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    width: auto; 
+}
+
+
+.navListItem {
+    margin-left: 20px; 
+    padding: 10px;
+    color: seashell;
+    white-space: nowrap; 
+}
+
+.bannerWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.bannerImg {
+    width: auto;
+    height: 700px;
+
+}
+
+.bannerText {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: seashell;
+}
+
+.topText{
+    padding-bottom: 10px;
+}
+
+.sectionTwo {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sectionTitle {
+    margin-bottom: 10px;
+}
+
+.sectionSubtitle {
+    margin-bottom: 30px;
+}
+
+.menuItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menuItem {
+    text-align: center;
+    max-width: 300px;
+}
+
+.menuImage {
+    width: 300px;
+    height: 200px;
+}
+
+.menuCaption {
+    display: block;
+    margin-top: 10px;
+}
+
+
+.sectionThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.locationImg {
+    width: auto;
+    height: 500px;
+
+}
+
+.Location {
+    position: relative;
+}
+
+.LocationHead {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    text-align: center; 
+    z-index: 1;
+    background-color: transparent !important; 
+    border: none !important;
+}
+
+ul.navLocation {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 70px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    justify-content: center;
+    background-color: transparent !important; 
+    width: auto;
+    opacity: 1;
+
+}
+  
+  ul.navLocation li {
+    width: 200px;
+    padding: 15px 20px; 
+    margin: 20px; /* Spacing between each box */
+    list-style: none;
+    text-align: center;
+    opacity: 1;
+    display: inline;
+
+}
+  
+  .navLocationItem.area {
+    padding-bottom: 50px !important;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+}
+  
+  .navLocation.address {
+    letter-spacing: 2px;
+}
+
+.cozyTea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailNum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    padding-left: 20px;
+}
+body {
+    padding-top: 70px;
+
+}
